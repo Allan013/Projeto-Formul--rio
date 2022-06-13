@@ -4,12 +4,39 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<title>Formulário</title>
 </head>
 <body>
 
+<div class="header">
+	<div class="header_titulo">
+         <h1>Formulário</h1>
+	</div>
+	
+	<div class="header_linha">
+	</div>
 
+	<form method="POST" action="">
+		
+		<div class="nome">Digite seu nome:</div>
+		<input type="text" name="nome" placeholder="Seu Nome" required>
 
+        <div class="email">Digite seu email:</div>
+		<input type="email" name="email" placeholder="exemplo@gmail.com" required>
+
+        <div class="senha">Digite sua senha:</div>
+		<input type="password" name="senha" placeholder="12345" required>
+
+		<textarea placeholder="Escreva uma mensagem"></textarea>
+
+		<div class="button">
+			<input type="submit" id="ajuste">
+		</div>       
+		
+	</form>
+
+</div>
 
 </body>
 </html>
